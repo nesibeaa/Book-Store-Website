@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books Website</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    
+    <section class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="#" title="Logo">
+                    <img src="images/book.png" alt="Book Logo" class="img-responsive">
+                </a>
+            </div>
+
+            <div class="menu text-right">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="categories.html">Categories</a>
+                    </li>
+                    <li>
+                        <a href="books.html">Books</a>
+                    </li>
+
+                    <li>
+                        <a href="publishers.html">Publishers</a>
+                    </li>
+                    
+                    <li>
+                        <a href="order.html"><i class="fa-solid fa-basket-shopping"></i></a>
+                    </li>
+
+                </ul>
+            </div>
+            
+            <div class="clearfix"></div>
+        </div>
+    </section>
+
+    <section class="book-search text-center">
+        <div class="container">
+            
+            
+
+        </div>
+    </section>
+  
+    <section class="categories">
+        <div class="container">
+     
+
+    </section>
+
+
+    <div class="container">
+        <div class="book-details">
+            <div class="book-image">
+                <img src="images/sucveceza.jpg" alt="Suç ve Ceza">
+            </div>
+            <div class="book-info">
+                <h2>Suç ve Ceza</h2>
+                <h3>Fyodor Dostoyevski</h3>
+                <br>
+                <p><strong>ID:</strong> 001</p>
+                <p><strong>Publisher:</strong> İLETİŞİM YAYINLARI</p>
+                <p><strong>Language:</strong> Turkish</p>
+                <p><strong>Number of Pages:</strong> 660</p>
+                
+                <p><strong>Price:</strong> 57.00₺</p>
+                <p><strong>Category:</strong> Classic Literature</p>
+                <p><strong>Summary:</strong> A gripping tale of morality and redemption, following the life of a young student who commits a crime and struggles with guilt and existential despair.</p>
+
+                <br>
+                <br>
+
+                    <a href="order.html" class="btn btn-primary">Order Now</a>
+
+            
+                    
+            </div>
+
+            <div class="container">
+                <div class="book-reviews">
+                    <h3>Customer Comments</h3>
+                    
+                   
+                    <div class="review">
+
+                        <p class="review-user">- John Doe <span class="nickname">@johndoe</span> <span class="review-date">12 Ocak 2024</span></p>
+                        <p class="review-text">"I couldn't put it down! A thrilling story of crime and punishment."</p>
+                      
+                    </div>
+            
+                    <div class="review">
+
+                        <p class="review-user">- Ebrar Sarıtaş <span class="nickname">@saritase</span> <span class="review-date">9 Ocak 2023</span></p>
+                        <p class="review-text">"Klasik edebiyatın en iyi örneklerinden biri."</p>
+                       
+                    </div>
+
+                    <div class="add-review">
+                        <h4>Add Your Comment</h4>
+                        <form action="submit_comment.php" method="post">
+                            <input type="hidden" name="book_id" value="001"> 
+
+                            <label for="user_name">Name:</label>
+                            <input type="text" id="user_name" name="user_name" required>
+                            <label for="user_nickname">Nickname:</label>
+                            <input type="text" id="user_nickname" name="user_nickname">
+                            <br>
+                            <br>
+                            <label for="comment">Comment:</label>
+                            <textarea id="comment" name="comment" required></textarea>
+                            <button type="submit" class="btn btn-primary">Submit Comment</button>
+                        </form>
+                    </div>
+            
+                   
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    
+    <section class="footer">
+        <div class="container text-center">
+            <p>All rights reserved. Designed By <a href="#">Database Group</a></p>
+        </div>
+    </section>
+
+
+</body>
+</html>

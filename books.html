@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Book Store Website</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+   
+    <section class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="#" title="Logo">
+                    <img src="images/book.png" alt="Book Logo" class="img-responsive">
+                </a>
+            </div>
+
+            <div class="menu text-right">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="categories.html">Categories</a>
+                    </li>
+                    <li>
+                        <a href="books.html">Books</a>
+                    </li>
+
+                    <li>
+                        <a href="publishers.html">Publishers</a>
+                    </li>
+                    <li>
+                        <a href="order.html"><i class="fa-solid fa-basket-shopping"></i></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="clearfix"></div>
+        </div>
+    </section>
+   
+    <section class="book-search text-center">
+        <div class="container">
+            
+            <form action="books-search.html" method="POST">
+                <input type="search" name="search" placeholder="Search for Book.." required>
+                <input type="submit" name="submit" value="Search" class="btn btn-primary">
+            </form>
+
+        </div>
+    </section>
+ 
+    <section class="book-menu">
+        <div class="container">
+            <h2 class="text-center">Books</h2>
+
+            <div class="book-menu-box">
+                <div class="book-menu-img">
+                    <img src="images/sefiller.jpg" alt="Sefiller" class="img-responsive img-curve">
+                </div>
+
+                <div class="book-menu-desc">
+                    <h4>Sefiller</h4>
+                    <p class="book-price">₺34</p>
+                    <p class="book-detail">
+                        Victor Hugo
+                    </p>
+                    <br>
+
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+
+            <div class="book-menu-box">
+                <div class="book-menu-img">
+                    <img src="images/sucveceza.jpg" alt="Suç ve Ceza" class="img-responsive img-curve">
+                </div>
+                <div class="book-menu-desc">
+                    <a href="book-info.html" class="custom-link"><h4>Suç ve Ceza</h4></a>
+
+                    <p class="book-price">₺57</p>
+                    <p class="book-detail">
+                        Fyodor Dostoyevski
+                    </p>
+                    <br>
+
+                    <a href="order.html" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+
+            <div class="book-menu-box">
+                <div class="book-menu-img">
+                    <img src="images/romeo.jpg" alt="Romeo ve Juliet" class="img-responsive img-curve">
+                </div>
+
+                <div class="book-menu-desc">
+                    <h4>Romeo ve Juliet</h4>
+                    <p class="book-price">₺38</p>
+                    <p class="book-detail">
+                        William Shakespeare
+                    </p>
+                    <br>
+
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+
+            <div class="book-menu-box">
+                <div class="book-menu-img">
+                    <img src="images/notre.jpg" alt="Notre" class="img-responsive img-curve">
+                </div>
+
+                <div class="book-menu-desc">
+                    <h4>Notre Dame'in Kamburu</h4>
+                    <p class="book-price">₺55</p>
+                    <p class="book-detail">
+                        Victor Hugo
+                    </p>
+                    <br>
+
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+
+            <div class="book-menu-box">
+                <div class="book-menu-img">
+                    <img src="images/ilahikomedya.jpg" alt="İlahi Komedya" class="img-responsive img-curve">
+                </div>
+
+                <div class="book-menu-desc">
+                    <h4>İlahi Komedya</h4>
+                    <p class="book-price">₺145</p>
+                    <p class="book-detail">
+                       Dante Alighieri
+                    </p>
+                    <br>
+
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+
+            <div class="book-menu-box">
+                <div class="book-menu-img">
+                    <img src="images/IstanbulHatirasi.jpg" alt="Istanbul Hatırası" class="img-responsive img-curve">
+                </div>
+
+                <div class="book-menu-desc">
+                    <h4>İstanbul Hatırası</h4>
+                    <p class="book-price">₺72</p>
+                    <p class="book-detail">
+                        Ahmet Ümit
+                    </p>
+                    <br>
+
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+
+            <div class="book-menu-box">
+                <div class="book-menu-img">
+                    <img src="images/ikisehrin.jpg" alt="İki Şehrin Hikayesi" class="img-responsive img-curve">
+                </div>
+
+                <div class="book-menu-desc">
+                    <h4>İki Şehrin Hikayesi</h4>
+                    <p class="book-price">₺42</p>
+                    <p class="book-detail">
+                        Charles Dickens
+                    </p>
+                    <br>
+
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+            <div class="book-menu-box">
+                <div class="book-menu-img">
+                    <img src="images/1984.jpg" alt="1983" class="img-responsive img-curve">
+                </div>
+
+                <div class="book-menu-desc">
+                    <h4>1984</h4>
+                    <p class="book-price">₺34</p>
+                    <p class="book-detail">
+                        George Orwell
+                    </p>
+                    <br>
+
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+            <div class="book-menu-box">
+                <div class="book-menu-img">
+                    <img src="images/hobbit.jpg" alt="Hobbit" class="img-responsive img-curve">
+                </div>
+
+                <div class="book-menu-desc">
+                    <h4>Hobbit</h4>
+                    <p class="book-price">₺96</p>
+                    <p class="book-detail">
+                        J.R.R. Tolkien
+                    </p>
+                    <br>
+
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+
+            <div class="book-menu-box">
+                <div class="book-menu-img">
+                    <img src="images/Ana 2.jpg" alt="Ana 2" class="img-responsive img-curve">
+                </div>
+
+                <div class="book-menu-desc">
+                    <h4>Ana 2</h4>
+                    <p class="book-price">₺43</p>
+                    <p class="book-detail">
+                        Halide Edib Adıvar
+                    </p>
+                    <br>
+
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+
+       
+            
+
+            <div class="book-menu-box">
+                <div class="book-menu-img">
+                    <img src="images/Anna.jpg" alt="Anna" class="img-responsive img-curve">
+                </div>
+
+                <div class="book-menu-desc">
+                    <h4>Anna Karenina</h4>
+                    <p class="book-price">₺88</p>
+                    <p class="book-detail">
+                        Leo Tolstoy
+                    </p>
+                    <br>
+
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+            
+       
+
+            <div class="book-menu-box">
+                <div class="book-menu-img">
+                    <img src="images/Antike .jpg" alt="Die Welt Der Antike" class="img-responsive img-curve">
+                </div>
+
+                <div class="book-menu-desc">
+                    <h4>Die Welt Der Antike</h4>
+                    <p class="book-price">₺70</p>
+                    <p class="book-detail">
+                        Enid Blyton
+                    </p>
+                    <br>
+
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+
+
+            <div class="book-menu-box">
+                <div class="book-menu-img">
+                    <img src="images/Askvegurur.jpg" alt="Ask ve Gurur" class="img-responsive img-curve">
+                </div>
+
+                <div class="book-menu-desc">
+                    <h4>Aşk ve Gurur</h4>
+                    <p class="book-price">₺47</p>
+                    <p class="book-detail">
+                        Jane Austen
+                    </p>
+                    <br>
+
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+
+
+            <div class="book-menu-box">
+                <div class="book-menu-img">
+                    <img src="images/babalar.jpg" alt="Babalar" class="img-responsive img-curve">
+                </div>
+
+                <div class="book-menu-desc">
+                    <h4>Babalar ve Oğullar</h4>
+                    <p class="book-price">₺40</p>
+                    <p class="book-detail">
+                        Ivan Turgenev
+                    </p>
+                    <br>
+
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+
+
+
+            <div class="book-menu-box">
+                <div class="book-menu-img">
+                    <img src="images/binbir.jpg" alt="binbir" class="img-responsive img-curve">
+                </div>
+
+                <div class="book-menu-desc">
+                    <h4>Binbir Gece Masalları</h4>
+                    <p class="book-price">₺20</p>
+                    <p class="book-detail">
+                        Various
+                    </p>
+                    <br>
+
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+
+
+            <div class="book-menu-box">
+                <div class="book-menu-img">
+                    <img src="images/bülbül.jpg" alt="Bülbül" class="img-responsive img-curve">
+                </div>
+
+                <div class="book-menu-desc">
+                    <h4>Bülbülü Öldürmek</h4>
+                    <p class="book-price">₺70</p>
+                    <p class="book-detail">
+                        Harper Lee
+                    </p>
+                    <br>
+
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+
+         
+
+            <div class="book-menu-box">
+                <div class="book-menu-img">
+                    <img src="images/milena.jpg" alt="Milena" class="img-responsive img-curve">
+                </div>
+
+                <div class="book-menu-desc">
+                    <h4>Briefe An Milena</h4>
+                    <p class="book-price">₺70</p>
+                    <p class="book-detail">
+                        Franz Kafka
+                    </p>
+                    <br>
+
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+
+            <div class="book-menu-box">
+                <div class="book-menu-img">
+                    <img src="images/fables.jpg" alt="fables" class="img-responsive img-curve">
+                </div>
+
+                <div class="book-menu-desc">
+                    <h4>Fables de La Fontaine</h4>
+                    <p class="book-price">₺23</p>
+                    <p class="book-detail">
+                        Jean de La Fontaine
+                    </p>
+                    <br>
+
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+
+
+
+            <div class="clearfix"></div>
+
+            
+
+        </div>
+
+    </section>
+   
+    <section class="footer">
+        <div class="container text-center">
+            <p>All rights reserved. Designed By <a href="#">Database Group</a></p>
+        </div>
+    </section>
+    
+
+</body>
+</html>

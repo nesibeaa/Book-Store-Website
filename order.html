@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store Website</title>
+
+   
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+  
+    <section class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="#" title="Logo">
+                    <img src="images/book.png" alt="Book Logo" class="img-responsive">
+                </a>
+            </div>
+
+            <div class="menu text-right">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="categories.html">Categories</a>
+                    </li>
+                    <li>
+                        <a href="books.html">Books</a>
+                    </li>
+
+                    <li>
+                        <a href="publishers.html">Publishers</a>
+                    </li>
+                    
+                    <li>
+                        <a href="order.html"><i class="fa-solid fa-basket-shopping"></i></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="clearfix"></div>
+        </div>
+    </section>
+   
+    <section class="book-search">
+        <div class="container">
+            
+            <h2 class="text-center text-black">Fill this form to confirm your order.</h2>
+
+            <form action="cust-order.html" class="order" method="post">
+                <fieldset>
+                    <legend>Selected Book</legend>
+
+                    <div class="order-label">Order ID: 18</div>
+                    
+
+                    <div class="book-menu-img">
+                        <img src="images/sucveceza.jpg" alt="Suç ve Ceza" class="img-responsive img-curve">
+                    </div>
+    
+                    <div class="book-menu-desc">
+                        <h3>Suç ve Ceza</h3>
+                        <p class="book-price">₺57</p>
+
+                        <div class="order-label">Quantity</div>
+                        <input type="number" name="qty" class="input-responsive" value="1" required>
+                        
+                    </div>
+
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Delivery Details</legend>
+                    <div class="order-label">Customer ID</div>
+                    <input type="text" name="full-name" placeholder=" " class="input-responsive" required>
+
+                    <div class="order-label">First Name</div>
+                    <input type="tel" name="contact" placeholder="Yuri" class="input-responsive" required>
+
+                    <div class="order-label">Last Name</div>
+                    <input type="tel" name="contact" placeholder="Boyka" class="input-responsive" required>
+
+                    <div class="order-label">Email</div>
+                    <input type="email" name="email" placeholder="E.g. hi@yuriboyka.com" class="input-responsive" required>
+
+                    <div class="order-label">Address</div>
+                    <textarea name="address" rows="10" placeholder="E.g. Street number, Street name, City, Country_id" class="input-responsive" required></textarea>
+
+                    <div class="order-label">Shipping Method</div>
+                    <select name="shipping-method" class="input-responsive" required>
+                        <option value="standard">Standard Shipping +5.00</option>
+                        <option value="express">Expedited Shipping +10.00</option>
+                        <option value="overnight">International Shipping +15.00</option>
+                        <option value="standard">Economy Shipping +20.00</option>
+                        <option value="express">Expedited Shipping +3.00</option>
+                        <option value="overnight">Priority Shipping +12.00</option>
+                        <option value="standard">Local Pickup +0.00</option>
+                        <option value="express">Drone Delivery +18.00</option>
+                        
+                    </select>
+                    
+
+
+                    <input type="submit" name="submit" value="Confirm Order" class="btn btn-primary" >
+
+                  
+
+                    
+                </fieldset>
+
+            </form>
+
+
+
+   
+    <section class="footer">
+        <div class="container text-center">
+            <p>All rights reserved. Designed By <a href="#">Database Group</a></p>
+        </div>
+    </section>
+   
+
+</body>
+</html>
